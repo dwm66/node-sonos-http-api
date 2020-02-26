@@ -65,6 +65,17 @@ Example:
 (will turn on repeat mode for group)
 
 
+Also balance changes are possible:
+
+* http://localhost:5005/{room name}/volume/{Master (default) | LF | RF}/{volume | relative volume}
+* http://localhost:5005/{room name}/balance/{integer between -100 and 100}
+* http://localhost:5005/{room name}/loudness/{on | off}
+* http://localhost:5005/{room name}/surround/{on | off}
+* http://localhost:5005/{room name}/surround/mode/{ambient | 0 | full | 1}
+* http://localhost:5005/{room name}/surround/level/{integer between -15 and 15}
+* http://localhost:5005/{room name}/surround/musiclevel/{integer between -15 and 15}
+
+
 The actions supported as of today:
 
 * play
