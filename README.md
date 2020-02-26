@@ -83,6 +83,10 @@ The actions supported as of today:
 * favorite
 * favorites (with optional "detailed" parameter)
 * playlist
+* playlistcreate
+* playlistdelete
+* playlistexport
+* playlistimport
 * lockvolumes / unlockvolumes (experimental, will enforce the volume that was selected when locking!)
 * repeat (on/off)
 * shuffle (on/off)
@@ -318,6 +322,7 @@ Available options are:
 * auth: require basic auth credentials which requires a username and password
 * announceVolume: the percentual volume use when invoking say/sayall without any volume parameter
 * presetDir: absolute path to look for presets (folder must exist!)
+* household: when theres multiple sonos accounts on one network (example: Sonos_ab7d67898dcc5a6d, find it in [Your sonos IP]:1400/status/zp)
 
 
 Example:
